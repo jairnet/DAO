@@ -13,9 +13,7 @@
         <meta name="description" content="{% block description %}{% endblock %}"/>
 
         <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
-        <link href="{% static 'css/local.min.css' %}" rel="stylesheet">
-        <link href="{% static 'css/3-col-portfolio.css' %}" rel="stylesheet">
-         <link href="{% static 'css/footer.css' %}" rel="stylesheet">
+       
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
         <!--[if lt IE 9]>
@@ -23,24 +21,32 @@
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
         {% block head %}
+
         {% endblock %}
     </head>
+
+
 
     <body>
         {% include "base/navbar.html" %}
 
         <div class="container">
-            {% block content %}
-            {% endblock %}
+        {% block content %}
+            
+               
+        {% endblock %}
         </div>
 
         {% include "base/footer.html" %}
 
         <!-- All that javascript -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
         {% block extrajs %}
+
         {% endblock %}
     </body>
 </html>
