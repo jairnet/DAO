@@ -1,8 +1,12 @@
+git->https://github.com/jairnet/DAO
+
+Recursos
+-----------
 http://www.golang-book.com/
 https://www.tutorialspoint.com/bootstrap/
 https://awesome-python.com/#authentication
 Heroku --> http://foroarg.byethost15.com/php/(tutorial)-(heroku)-crear-una-aplicacion-en-heroku-y-subir-un-script-php/?i=1
-
+-------------
 
 https://alexismarin.wordpress.com/2013/10/07/implementar-itil-mediante-herramientas-opensource/
 http://demo.themewagon.com/preview/simple-one-page-bootstrap-template-free-download
