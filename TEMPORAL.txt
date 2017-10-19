@@ -10,10 +10,14 @@ DJANGO-SQLSERVER -->https://media.readthedocs.org/pdf/django-mssql/latest/django
                  -->https://pythonpiura.wordpress.com/2016/01/25/django-y-microsoft-sql-server/ 
                  -->https://github.com/michiya/django-pyodbc-azure
                  -->https://docs.microsoft.com/es-es/sql/connect/python/python-driver-for-sql-server
+PAGINACION --> https://gist.github.com/alexdzul/fd29454198213d06d001
 -------------
 
 https://alexismarin.wordpress.com/2013/10/07/implementar-itil-mediante-herramientas-opensource/
 http://demo.themewagon.com/preview/simple-one-page-bootstrap-template-free-download
+----------------------------------------------------------------------------------
+TELETRABAJO --> 
+
 
 
 ----------------------------------------------------------------------------------
