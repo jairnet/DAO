@@ -6,6 +6,10 @@ http://www.golang-book.com/
 https://www.tutorialspoint.com/bootstrap/
 https://awesome-python.com/#authentication
 Heroku --> http://foroarg.byethost15.com/php/(tutorial)-(heroku)-crear-una-aplicacion-en-heroku-y-subir-un-script-php/?i=1
+DJANGO-SQLSERVER -->https://media.readthedocs.org/pdf/django-mssql/latest/django-mssql.pdf
+                 -->https://pythonpiura.wordpress.com/2016/01/25/django-y-microsoft-sql-server/ 
+                 -->https://github.com/michiya/django-pyodbc-azure
+                 -->https://docs.microsoft.com/es-es/sql/connect/python/python-driver-for-sql-server
 -------------
 
 https://alexismarin.wordpress.com/2013/10/07/implementar-itil-mediante-herramientas-opensource/
