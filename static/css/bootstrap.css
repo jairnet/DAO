@@ -6906,3 +6906,13 @@ button.close {
 .panel-info > .panel-heading .badge {
   background-color: #fff;
 }
+
+/*mi style*/
+.fijo .div
+{
+  position: fixed;
+  top:0px;
+  bottom:0; 
+  right:0;
+  left:0px;
+}

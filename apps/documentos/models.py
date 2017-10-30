@@ -17,7 +17,7 @@ class Archivo(models.Model):
 	nombre = models.CharField(max_length=50)
 	fecha = models.DateField()
 	descripcion = models.TextField(max_length=100)
-	archive = models.FileField(upload_to='docuemntos/')
+	archive = models.FileField(upload_to='docuementos/')
 
 	class Meta:
 		ordering = ["nombre"]
@@ -25,4 +25,28 @@ class Archivo(models.Model):
 
 	def __str__(self): # __unicode__ en Python 2
 		return self.nombre
+
+class PuntosVenta(models.Model):
+	CIUDAD = (
+		('POP','Popayan'),
+		('CAL','Cali'),
+		('PAS','Pasto'),
+		('PER','Pereira'),
+		('CAQ','Caqueta'),
+		('SAN','Santander'),
+		('TAM','Tambo'),
+		)
+
+	ciudad = models.CharField(max_length=20, choices=CIUDAD)
+	nombre_punto = models.CharField(max_length=50)
+	descripcion = models.TextField(max_length=100)
+	image = models.ImageField(upload_to='puntos')
+
+	class Meta:
+		ordering = ["nombre_punto"]
+		verbose_name_plural = "PuntosVentas"
+
+	def __str__(self): # __unicode__ en Python 2
+		return self.nombre_punto
+
 	
