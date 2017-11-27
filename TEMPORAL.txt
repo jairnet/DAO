@@ -35,10 +35,11 @@ http://docs.python.org.ar/tutorial/
 http://docs.python.org.ar/tutorial/django/tutorial01
 Instalar Python en Windows
 1 Descargar e intalar python en windows en una ruta de facil acceso
-2 Agregar la ruta de instalcion a las variables de entorno de windows
+2 Agregar la ruta de instalcion a las variables de entorno de windows(http://geekuu.com/configurar-variables-de-entorno-windows-para-python/)
 3 Instalar virtualenv: pip install virtualenv
 4 crear un entorno virtual : virtualenv nombre_carpeta
 5 Activar el virtualenv dentro de la carpeta donde se creo el entorno virtual: Scripts\activate.bat
+5.1 Clonar un repositorio que ya esta creado de en github
 6 con el entorno activado se procede a instalar Django: pip install django
 |
 Ahora necesitamos crear el proyecto en python
