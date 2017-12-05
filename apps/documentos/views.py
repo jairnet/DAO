@@ -9,6 +9,10 @@ class Index(ListView):
 	model = Archivo
 	template_name = "documentos/index.html"
 
+class NuestraEmpresa(ListView):
+	model = Archivo
+	template_name = "documentos/nuestra_empresa.html"	
+
 class Nosotros(ListView):
 	model = Archivo
 	template_name = "documentos/nosotros.html"
