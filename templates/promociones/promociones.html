@@ -1,0 +1,22 @@
+{% extends 'base/base.html' %}
+{% block title %}DAO | Nosotros{% endblock %}
+
+{% block content %}
+<div class="row">
+{%for object in object_list%}
+<br>
+<div class="col-4">
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="http://4.bp.blogspot.com/_-wrPH-GokOc/TJJr7kvJquI/AAAAAAAAF2E/mXhOKG6ie4w/s1600/1216707994_Gluconate_de_Calcium_zoom%5B1%5D.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">{{ object.nombre_articulo }}</h4>
+    <p class="card-text">{{ object.descripcion }}</p>
+    <h4 class="text-danger" >Antes <del>$ {{ object.precio_venta }} </del></h3>
+    <h3 class="text-success" >Ahora $ {{ object.precio_promo }}</h4>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+{% endfor %}	
+</div>
+{% endblock %}

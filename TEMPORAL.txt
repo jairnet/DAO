@@ -46,7 +46,12 @@ Instalar Python en Windows
 Ahora necesitamos crear el proyecto en python
 1 con: django-admin.py startproject mysite
 2 se crea una carpeta apps y se corre el siguiente comando: django-admin.py startapp myapps
-3
+3 (https://docs.djangoproject.com/es/2.0/intro/tutorial02/)
+4 Administrador:
+	user:admin
+	correo: analista.ti@dao.com.co
+	contraseña: dao12345
+5 Personalizar admin (http://slides.com/guillermonunez/django-configurando-el-admin#/0/1)
 __________________________________________________________________________________
 C:\Program Files\Git\bin;C:\Program Files\Git\cmd 
 ----------------------------------------------------------------------------------
